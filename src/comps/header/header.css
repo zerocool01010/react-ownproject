@@ -1,0 +1,11 @@
+.logo{
+    grid-area: logo;
+    background-color: red;
+    border: 5px solid black;
+}
+
+.banner{
+    grid-area: banner;
+    background-color: yellow;
+    border: 5px solid black;
+}

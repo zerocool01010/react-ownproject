@@ -1,0 +1,25 @@
+.centralnews{
+    grid-area: notp;
+    background-color: pink;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.secnews1{
+    grid-area: nots1;
+    background-color: aquamarine;
+    border: 5px solid black;
+}
+.secnews2{
+    grid-area: nots2;
+    background-color: brown;
+    border: 5px solid black;
+}
+.secnews3{
+    grid-area: nots3;
+    background-color: grey;
+    border: 5px solid black;
+}

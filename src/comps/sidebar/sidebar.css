@@ -1,0 +1,5 @@
+.othernews{
+    grid-area: other;
+    background-color: orangered;
+    border: 5px solid black;
+}

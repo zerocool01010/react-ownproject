@@ -1,0 +1,23 @@
+.nav{
+    grid-area: nav;
+    background-color: green;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". item1 item2 item3 item4"
+    ;
+}
+
+.el1{
+    grid-area: item1;
+}
+.el2{
+    grid-area: item2;
+}
+.el3{
+    grid-area: item3;
+}
+.el4{
+    grid-area: item4;
+}

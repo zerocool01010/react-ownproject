@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 50px 300px 200px;
+    grid-template-areas: 
+    "logo banner banner banner"
+    "nav nav nav nav"
+    "notp notp notp other"
+    "nots1 nots2 nots3 other"
+    ;
+}
